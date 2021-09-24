@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "x8/SO7aZApMwH0ks0WyNv2y4Fxa0X/74QgzvSYUTBZDxeLKQovrcc3vh7HBNZUux+Nc4dALKNWaLWGaUjuF6Zg==",
+  "success": true,
+  "projectFilePath": "F:\\WorkShop\\WorkShop\\WSDES\\WSDES.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\naixO\\.nuget\\packages\\materialdesigncolors\\2.0.3\\materialdesigncolors.2.0.3.nupkg.sha512",
+    "C:\\Users\\naixO\\.nuget\\packages\\materialdesignextensions\\3.3.0\\materialdesignextensions.3.3.0.nupkg.sha512",
+    "C:\\Users\\naixO\\.nuget\\packages\\materialdesignthemes\\4.2.1\\materialdesignthemes.4.2.1.nupkg.sha512",
+    "C:\\Users\\naixO\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

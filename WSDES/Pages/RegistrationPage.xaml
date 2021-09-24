@@ -1,0 +1,61 @@
+﻿<Page
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:WSDES.Pages"
+      xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes" x:Class="WSDES.Pages.RegistrationPage"
+      mc:Ignorable="d" 
+      xmlns:viewmodels="clr-namespace:WSDES.ViewModels"
+      d:DesignHeight="650" d:DesignWidth="1000"
+      Title="RegistrationPage">
+    <Page.DataContext>
+        <viewmodels:RegistrationViewModel/>
+    </Page.DataContext>
+    <Border CornerRadius="20" Background="White">
+        <Grid>
+
+            <TextBox Width="200" materialDesign:HintAssist.Hint="Email"
+                Height="40" Style="{StaticResource MaterialDesignOutlinedTextBox}" 
+                Padding="8,10,8,0" Background="#FFF9F9F9" Margin="400,235,400,0" VerticalAlignment="Top" FontFamily="Open Sans" Foreground="#FF292929">
+                <TextBox.BorderBrush>
+                    <SolidColorBrush Color="#BCDCDCDC" Opacity="0.6"/>
+                </TextBox.BorderBrush>
+            </TextBox>
+            <PasswordBox Width="200"
+                materialDesign:HintAssist.Hint="Password"
+                Style="{StaticResource MaterialDesignOutlinedPasswordBox}"
+                Margin="400,290,400,0" Height="40" VerticalAlignment="Top" Padding="8,10,8,0" Background="#FFF9F9F9" Cursor="IBeam" FontFamily="Open Sans" Foreground="#FF292929">
+                <PasswordBox.BorderBrush>
+                    <SolidColorBrush Color="#BCDCDCDC" Opacity="0.6"/>
+                </PasswordBox.BorderBrush>
+            </PasswordBox>
+            <Image Source="/Images/WorkShop-logos_transparent.png" Height="170" VerticalAlignment="Top" Stretch="UniformToFill" StretchDirection="Both" HorizontalAlignment="Center" Width="350" Margin="0,30,0,0">
+                <Image.Effect>
+                    <BlurEffect Radius="1" RenderingBias="Quality" KernelType="Gaussian"/>
+                </Image.Effect>
+
+            </Image>
+            <PasswordBox Width="200"
+                materialDesign:HintAssist.Hint="Confirm Password"
+                
+                Style="{StaticResource MaterialDesignOutlinedPasswordBox}"
+                Margin="400,345,400,0" Height="40" VerticalAlignment="Top" Padding="8,10,8,0" Background="#FFF9F9F9" Cursor="IBeam" FontFamily="Open Sans" Foreground="#FF292929">
+                <PasswordBox.BorderBrush>
+                    <SolidColorBrush Color="#BCDCDCDC" Opacity="0.6"/>
+                </PasswordBox.BorderBrush>
+            </PasswordBox>
+            <Button Margin="400,400,400,0" Height="40" Width="200"
+                Style="{StaticResource MaterialDesignFlatMidBgButton}"
+                materialDesign:RippleAssist.IsDisabled="True"
+                VerticalAlignment="Top" Content="Continue" FontFamily="Open Sans Light" Cursor="Hand" Background="#FF695AE5" BorderBrush="#FF695AE5"/>
+            <Button Margin="400,455,400,0" Height="40" Width="200"
+                Style="{StaticResource MaterialDesignFlatMidBgButton}"
+                    Command="{Binding NavigateToLoginPageCommand}"
+                materialDesign:RippleAssist.IsDisabled="True"
+                VerticalAlignment="Top" Content="Back" FontFamily="Open Sans Light" Cursor="Hand" Background="{x:Null}" BorderBrush="#FF695AE5" BorderThickness="0.5,0.5,0.5,0.5" Foreground="#FF695AE5"/>
+
+        </Grid>
+
+    </Border>
+</Page>

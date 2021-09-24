@@ -1,0 +1,12 @@
+F:\WorkShop\WorkShop\Kernel\bin\Debug\net5.0\Kernel.deps.json
+F:\WorkShop\WorkShop\Kernel\bin\Debug\net5.0\Kernel.dll
+F:\WorkShop\WorkShop\Kernel\bin\Debug\net5.0\ref\Kernel.dll
+F:\WorkShop\WorkShop\Kernel\bin\Debug\net5.0\Kernel.pdb
+F:\WorkShop\WorkShop\Kernel\obj\Debug\net5.0\Kernel.csproj.AssemblyReference.cache
+F:\WorkShop\WorkShop\Kernel\obj\Debug\net5.0\Kernel.GeneratedMSBuildEditorConfig.editorconfig
+F:\WorkShop\WorkShop\Kernel\obj\Debug\net5.0\Kernel.AssemblyInfoInputs.cache
+F:\WorkShop\WorkShop\Kernel\obj\Debug\net5.0\Kernel.AssemblyInfo.cs
+F:\WorkShop\WorkShop\Kernel\obj\Debug\net5.0\Kernel.csproj.CoreCompileInputs.cache
+F:\WorkShop\WorkShop\Kernel\obj\Debug\net5.0\Kernel.dll
+F:\WorkShop\WorkShop\Kernel\obj\Debug\net5.0\ref\Kernel.dll
+F:\WorkShop\WorkShop\Kernel\obj\Debug\net5.0\Kernel.pdb
